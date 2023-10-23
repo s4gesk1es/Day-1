@@ -1,0 +1,82 @@
+/* CSS Reset Properties */
+body,main,article,section,header,footer {
+margin: 0px; 
+padding: 0;
+box-sizing: border-box; 
+
+}
+
+nav a {
+ flex-grow: 1;
+ text-align: center;
+color: white;
+text-decoration: none;
+border: white 2px solid;
+padding: 5px;
+}
+
+nav a:hover {
+    color: black;
+    background-color: white;
+
+}
+
+body {
+    padding: 100px;
+    font-size: 16px;
+    background-color: black;
+    color: rgb(220, 219, 219);
+}
+
+section{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5px;
+}
+
+
+
+/*individual classes for section background images */
+
+.em {
+    background-image: url(../images/water1);
+    border: solid darkorange 1em;
+    font-size: 1.2em;
+}
+
+.rem{
+    background-image: url(../images/water2);
+    border: dotted darkred .5rem;
+}
+
+.percent {
+    background-image: url(../images/water3);
+    
+
+}
+.percent p {
+    width: 75%;
+}
+.box {
+    background-image: url(../images/water4);
+    box-sizing: border-box;
+    border: solid dodgerblue 3em;
+}
+
+.vw {
+    background-image: url(../images/water5);
+    border: dashed 1vw;
+    font-size: 1vw;
+}
+
+.hero {
+    /* background-image: url(../images/water6); */
+    border-top-right-radius: 2em;
+    /* border: solid black 2px; */
+
+}
+
+.hero p {
+    width: 90%;
+}
