@@ -1,0 +1,137 @@
+:root {
+    --green:#B7E398    
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+body, header, main, footer, section, article, aside {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+main, header, nav ul, footer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+main section {
+    border: solid white 1px;
+    text-align: center;
+    padding: 20px;
+}
+
+/*the following classes with govern the sections and make them work within the grid*/
+
+.item1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.item6 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+}
+.pic6, .pic4, .pic2 {
+    background-image: url(../images/sj-027.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+
+}
+
+.pic2 {
+    background-image: url(../images/sj-023.jpg);
+}
+
+.pic4 {
+    background-image: url(../images/sj-032.jpg);
+}
+
+.item6 p {
+    color: black;
+}
+.item7 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.item8, .item9, .item10, .hero-orcas {
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+}
+
+header {
+    background-color: white;
+    text-align: center;
+
+}
+
+header, a, header, p {
+    color: lightgray;
+    text-decoration: none;
+}
+
+.hero-orcas, main, section {
+    background-image: url(../images/sj-034.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+h1 {
+    color:white;
+    text-shadow: rgb(22, 39, 22) 3px 3px 3px;
+}
+nav ul{
+    background-color: white;
+}
+nav ul li {
+    list-style-type: none;
+    text-align-last: center;
+    height: 100px;
+}
+
+nav ul li:hover {
+    background-color: rgb(156, 206, 202);
+    color: white;
+}
+
+main section {
+    height: 400px;
+}
+
+.item1 {
+    background-image: url(../images/sj-062.jpg);
+}
+
+.item3{
+    background-image: url(../images/sj-035.jpg);
+}
+
+.item5 {
+    background-image: url(../images/sj-053.jpg);
+}
+
+.item7 {
+    background-image: url(../images/sj-028.jpg);
+}
+
+.item4, .item6, .item2 {
+    background-image: none;
+}
+
+.item2 p {
+    color: black;
+}
+
+.item4 p {
+    color: black;
+}
