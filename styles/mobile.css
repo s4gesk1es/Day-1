@@ -22,4 +22,12 @@
     .loki img, .leo img {
         width: 90%;
     }
+
+  main {
+    grid-template-areas: none;
+  }
+
+  .item1, .item3 {
+    height: 400px;
+  }
 }
