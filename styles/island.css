@@ -19,7 +19,6 @@ main, header, nav ul, footer {
 }
 
 main section {
-    border: solid white 1px;
     text-align: center;
     padding: 20px;
 }
@@ -90,18 +89,11 @@ h1 {
     color:white;
     text-shadow: rgb(22, 39, 22) 3px 3px 3px;
 }
-nav ul{
-    background-color: white;
-}
+
 nav ul li {
     list-style-type: none;
     text-align-last: center;
     height: 100px;
-}
-
-nav ul li:hover {
-    background-color: rgb(156, 206, 202);
-    color: white;
 }
 
 main section {

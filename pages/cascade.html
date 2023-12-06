@@ -9,6 +9,9 @@
 	<link href="../styles/medium.css" rel="stylesheet" type="text/css" media="screen and (min-width:768px)">
 	<link href="../styles/large.css" rel="stylesheet" type="text/css" media="screen and (min-width:1024px)">
 	<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Roboto+Slab&display=swap" rel="stylesheet">
+	<link href="../styles/mobile-nav.css" rel="stylesheet" type="text/css">
+	<link href="../styles/mobile.css" rel="stylesheet" type="text/css">
+
 
 
 </head>
@@ -18,15 +21,27 @@
 			<header>
 				<h1>The Cascade Mountain Range</h1>
 				<h2>Hiking and Camping Resources</h2>
-				<nav>
+				<nav class="navbar">
+					<div class="page-title"><p>HOME</p></div>
+					<a href="#" class="toggle-button">
+					<span class="bar"></span>
+					<span class="bar"></span>
+					<span class="bar"></span>
+				</a>
+				<div class="navbar-links">
 					<ul>
-						<li><a href="#">Home</a></li>
-						<li><a href="#">Trails</a></li>
-						<li><a href="#">Camping</a></li>
-						<li><a href="#">Maps</a></li>
-						<li><a href="#">Products</a></li>
+						<li><a href="../index.html">HOME</a></li>
+						<li><a href="../pages/history.html">HISTORY</a></li>
+						<li><a href="../pages/stew-recipe.html">STEW</a></li>
+						<li><a href="../pages/cascade.html">CASCADE</a></li>
+						<li><a href="../pages/orcas.html">ORCAS</a></li>
+						<li><a href="../pages/fluid.html">FLUID</a></li>
+						<li><a href="../pages/optimized.html">OPTIMIZED</a></li>
+						<li><a href="../pages/responsive.html">RESPONSIVE</a></li>
+						<li><a href="../pages/theater2.html">THEATER</a></li>
 					</ul>
-				</nav>
+				</div>
+			</nav>
 			</header>
 		<section class="content">
 
@@ -95,5 +110,7 @@
 my name 2019. Everett Community College Graph 130 web coding project.</p> 
 </footer>
 </article>
+<script src="../scripts/mobilenav.js"></script>
+
 </body>
 </html>

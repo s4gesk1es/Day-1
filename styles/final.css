@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/grunge.jpg); }
+    
+
+.navbar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(189, 189, 189); }
+
+    nav ul {
+        text-align:right;
+        list-style: none;
+    
+    }    
+
+    nav li {
+        display: inline-block;
+        letter-spacing: 3px;
+    }
+
+    
+
+    .page-title p {
+        font-size: 22px;
+        margin: 8px;
+    
+    }
+    
+    
+    .navbar-links ul {
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .navbar-links li {
+        list-style: none;
+    }
+    
+
+    p {
+        color: rgb(189, 189, 189);
+        padding: 0px;
+        font-family: franklin gothic thin;
+        word-spacing: 2px;
+    }
+
+    .navbar-links li a {
+        display: block;
+        text-decoration: none;
+        color: white;
+        padding: 16px;
+    
+    }
+
+    .content {
+        padding: 10px;
+        width: 630px;
+        text-align: left;
+    }
+    
+    h2 {
+        color:rgb(189, 189, 189);
+        padding-top: 50px;
+        text-decoration: underline;
+        padding-left: 10px;
+        font-size: 30px;
+        font-family: 'Franklin Gothic Medium'
+    }
+
+    img {
+        float: left;
+        width: 17em;
+        margin-left: -20px;
+        margin-top: -20px;
+        margin-bottom: -15px;
+    }
+
+   
